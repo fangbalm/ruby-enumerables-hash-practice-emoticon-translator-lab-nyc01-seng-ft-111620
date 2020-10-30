@@ -5,13 +5,10 @@ require 'pry'
 def load_library(file_path)
   # code goes here
   hash = {}
-  hash["get_emoticon"] = {}
-  hash["meaning"] = {}
   file = YAML.load_file(file_path)
 
   file.each do |key, values|
-    hash2 = {}
-    hash2[:english] = [values][0]
+    hash2 = {:english => values[0]}
     binding.pry
 
     #   hash = {:english => value[0]}
