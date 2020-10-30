@@ -24,7 +24,7 @@ def get_english_meaning(file_path, emoticon)
   # code goes here
   emoticons.each do |key, values|
     
-  
+
     binding.pry
   end
   end
