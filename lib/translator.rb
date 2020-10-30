@@ -9,7 +9,7 @@ def load_library(file_path)
 
   file.each do |key, values|
     hash2 = {:english => values[0], :japanese => values[1]}
-    hash.store(key, hash2)
+    hash.push(key, hash2)
   end
   # binding.pry
   return hash
