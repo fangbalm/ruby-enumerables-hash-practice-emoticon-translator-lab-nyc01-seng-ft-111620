@@ -11,7 +11,7 @@ def load_library(file_path)
     hash2 = {:english => values[0], :japanese => values[1]}
     hash = {key => hash2}
   end
-  binding.pry
+  # binding.pry
   return hash
 
 end
