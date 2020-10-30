@@ -10,7 +10,8 @@ def load_library(file_path)
   file = YAML.load_file(file_path)
 
   file.each do |key, values|
-    hash["get_emote"][values.first] = :english
+    hash2 = {}
+    # hash2[:english] = 
     binding.pry
 
     #   hash = {:english => value[0]}
