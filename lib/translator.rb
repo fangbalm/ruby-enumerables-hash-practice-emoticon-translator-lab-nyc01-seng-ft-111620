@@ -8,8 +8,9 @@ def load_library(file_path)
   file = YAML.load_file(file_path)
 
   file.each do |key, values|
-    # values.each do |inner_key, value|
+    values.map do |inner_key, value|
     hash2 = {:english => values[0], :japanese => values[1]}
+  end
     hash[key] = hash2
     hash
 
