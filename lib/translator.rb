@@ -11,7 +11,7 @@ def load_library(file_path)
 
   file.each do |key, values|
     hash2 = {}
-    # hash2[:english] = 
+    # hash2[:english] =
     binding.pry
 
     #   hash = {:english => value[0]}
