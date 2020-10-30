@@ -10,11 +10,8 @@ def load_library(file_path)
   file.each do |key, values|
     hash2 = {:english => values[0], :japanese => values[1]}
     hash = {key => hash2}
-    hash
-
-    binding.pry
-
   end
+  return hash
 end
 
 # def get_japanese_emoticon
