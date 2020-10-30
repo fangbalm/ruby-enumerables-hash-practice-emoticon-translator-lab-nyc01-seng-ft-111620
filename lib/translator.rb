@@ -20,7 +20,7 @@ def get_japanese_emoticon(file_path, emoticon)
   emoticons.each do |key, values|
     if(emoticon) == values[:english]
       return values[:japanese]
-    binding.pry
+    end
   end
   # code goes here
 end
