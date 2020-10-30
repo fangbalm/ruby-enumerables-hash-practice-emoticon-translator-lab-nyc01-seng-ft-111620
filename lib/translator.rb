@@ -26,6 +26,7 @@ def get_english_meaning(file_path, emoticon)
     values.each do |language, emote|
       if(language == :english)
         return key
+      end
 
     binding.pry
   end
