@@ -12,7 +12,7 @@ def load_library(file_path)
     hash[key] = hash2
     hash
 
-    binding.pry
+    # binding.pry
 
     #   hash = {:english => value[0]}
     # elsif hash = {:japanese => value[1]}
